@@ -1,0 +1,12 @@
+{  
+  "name": "Push Notifications - Projeto torne-se um programador",
+  "gcm_sender_id": "120460651388",
+  "short_name": "Push Demo torne-se",  
+  "icons": [{  
+        "src": "http://www.torneseumprogramador.com.br/imagens/icon.png",  
+        "sizes": "60x60",
+        "type": "image/png"
+      }],  
+  "start_url": "/aulas",  
+  "display": "standalone"
+}
