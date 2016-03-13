@@ -1,6 +1,6 @@
-cJQ0zF7WrGk:APA91bHdwKCQWNcSqV_nXIS86aQB-Arre2XLpGovPg7kOPH4JvB5PwbpIahuu6PpiEcjtg1zgwv7Iez9qOGXNPVaPw00rV4CqqsNSPWheBSGGXV2X61y7YGUDnAzTUs56uzXVqc79zym
 
 AIzaSyDXlqXBBEWf1K-zeTC6K4IxfVTYSzelzLc
 
 
-curl --header "Authorization: key=AIzaSyDXlqXBBEWf1K-zeTC6K4IxfVTYSzelzLc" --header Content-Type:"application/json" https://android.googleapis.com/gcm/send -d "{\"registration_ids\":[\"cJQ0zF7WrGk:APA91bHdwKCQWNcSqV_nXIS86aQB-Arre2XLpGovPg7kOPH4JvB5PwbpIahuu6PpiEcjtg1zgwv7Iez9qOGXNPVaPw00rV4CqqsNSPWheBSGGXV2X61y7YGUDnAzTUs56uzXVqc79zym\"]}"
+curl --header "Authorization: key=AIzaSyDXlqXBBEWf1K-zeTC6K4IxfVTYSzelzLc" --header Content-Type:"application/json" https://android.googleapis.com/gcm/send -d "{\"registration_ids\":[\"d4b1e12PGqs:APA91bHfZKKMfuS39ApVbCpXVuWG_hoQyMc7-FARdGWvht8gO1Y5V29XB2o4YrVsWaH8GSWTDG-WlWLpB7aZuRf0FbAYb2VS7ABgtjRMW7LPhXPoxMvR3Y4G0y_R-lMY0lmDRKVVC5mC\"]}"
+
