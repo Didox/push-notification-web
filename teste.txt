@@ -1,0 +1,6 @@
+cJQ0zF7WrGk:APA91bHdwKCQWNcSqV_nXIS86aQB-Arre2XLpGovPg7kOPH4JvB5PwbpIahuu6PpiEcjtg1zgwv7Iez9qOGXNPVaPw00rV4CqqsNSPWheBSGGXV2X61y7YGUDnAzTUs56uzXVqc79zym
+
+AIzaSyDXlqXBBEWf1K-zeTC6K4IxfVTYSzelzLc
+
+
+curl --header "Authorization: key=AIzaSyDXlqXBBEWf1K-zeTC6K4IxfVTYSzelzLc" --header Content-Type:"application/json" https://android.googleapis.com/gcm/send -d "{\"registration_ids\":[\"cJQ0zF7WrGk:APA91bHdwKCQWNcSqV_nXIS86aQB-Arre2XLpGovPg7kOPH4JvB5PwbpIahuu6PpiEcjtg1zgwv7Iez9qOGXNPVaPw00rV4CqqsNSPWheBSGGXV2X61y7YGUDnAzTUs56uzXVqc79zym\"]}"
