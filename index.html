@@ -9,4 +9,39 @@
   
   <script src="functions.js"></script>
   </body>
+
+
+  <p>
+    como testar:<br>
+    push que funciona meu registro:
+
+    curl --header "Authorization: key=AIzaSyBBh4ddPa96rQQNxqiq_qQj7sq1JdsNQUQ" --header Content-Type:"application/json" https://android.googleapis.com/gcm/send -d "{\"registration_ids\":[\"favqZiBN4IE:APA91bEnh1ZhNCS4MIfGHCuGtQ0LDLiHCmjhq5LJ6bN1_eoY1JAoxVl97_AiWrFQqcVevJoXti1B7SkSeyQnLYIfIk1UBK6Sxf3jhIg2_MMb_yj-N6RAl2J07wwRbjKLXkXly9cxUQmv\"]}"
+
+    <br>
+
+    url: https://simple-push-demo.appspot.com/
+
+    </br>
+    exemplo de teste:
+    curl --header "Authorization: key=MY_KEY" --header "Content-Type: application/json" https://android.googleapis.com/gcm/send -d "{\"registration\_ids\":[\"KEY-AUTORIZADA\"]}"
+    </br>
+
+    MY_KEY : pegar na URL https://console.cloud.google.com/apis/credentials?project=chrome-push-notifications-1249
+    </br>
+    
+    KEY-AUTORIZADA:  pegar no console.log
+    </br>
+
+
+    docs:
+    https://developers.google.com/web/updates/2015/03/push-notifications-on-the-open-web
+    </br>
+    https://developers.google.com/web/fundamentals/getting-started/push-notifications/step-01?hl=en
+    </br>
+
+    verificar pushs:
+    chrome://serviceworker-internals/
+    </br>
+    
+  </p>
 </html>
